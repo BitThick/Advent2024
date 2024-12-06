@@ -5,7 +5,7 @@
 
 import re
 
-file = open('/home/user/AdventCode24/3/Input.txt')
+file = open('/home/user/Advent2024/3/Input.txt')
 text = file.read()
 list = re.findall("do\(\).+|\s*don't\(\)", text)
 for item in list:
