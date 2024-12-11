@@ -1,6 +1,6 @@
-file = open('/home/user/AdventCode24/3/Input.txt')
-text = file.readlines()
+file = open('/home/user/Advent2024/4/Input.txt')
+text = file.read()
 
-for item in text:
-	print(item)
+for line in text:
+	print(line)
 	input()
