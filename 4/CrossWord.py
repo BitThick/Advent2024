@@ -4,13 +4,11 @@
 
 
 found = 0
+line = []
 file = open('/home/user/Advent2024/4/Input.txt')
-text = file.read()
-for char in text:
-	if char == '\n':
-		print('nl')
-		input()
-	else: print(char)
+text = file.readlines()
+for string in text:
+	line.append(string)
 
-
-print(found)
+print(line[1][1])
+print(line[2][1])
