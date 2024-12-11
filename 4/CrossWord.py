@@ -8,7 +8,6 @@ found = 0
 lines = []
 file = open('/home/user/Advent2024/4/Input.txt')
 text = file.readlines()
-#text = file.read() try using array notation on this?
 for string in text:
 	lines.append(string)
 
