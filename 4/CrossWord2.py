@@ -1,5 +1,5 @@
 #Name: CrossWord2
-#Abstract: Find diagonally placed and overlapping MAS
+#Abstract: Find diagonally placed, overlapping MAS
 
 import re
 
